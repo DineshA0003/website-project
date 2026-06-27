@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Demo Website</title>
+
+    <style>
+
+        body{
+            margin:0;
+            padding:0;
+            background:#f4f4f4;
+            font-family:Arial;
+        }
+
+        .container{
+
+            width:700px;
+
+            margin:auto;
+
+            margin-top:100px;
+
+            background:white;
+
+            padding:30px;
+
+            text-align:center;
+
+            border-radius:10px;
+
+            box-shadow:0px 0px 10px gray;
+
+        }
+
+        h1{
+
+            color:blue;
+
+        }
+
+        p{
+
+            font-size:20px;
+
+        }
+
+        button{
+
+            background:blue;
+
+            color:white;
+
+            padding:10px 25px;
+
+            border:none;
+
+            border-radius:5px;
+
+            cursor:pointer;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Welcome to My CI/CD Project</h1>
+
+<p>
+
+GitHub → Jenkins → AWS EC2 Automatic Deployment
+
+</p>
+
+<button onclick="showMessage()">
+
+Click Here
+
+</button>
+
+</div>
+
+<script>
+
+function showMessage(){
+
+alert("Deployment Successful");
+
+}
+
+</script>
+
+</body>
+
+</html>
